@@ -5,6 +5,7 @@ pendientes de actividad.
 
 El **propósito** de este proyecto es aplicar el algoritmo de K-means clustering para segmentar los locales. 
 
+Las variables que se han tenido en consideración son las siguientes.
 *Codi_Principal_Activitat*, identificador global único.
 
 *Nom_Principal_Activitat*, descripción de codigo sobre el uso principal de l'activitat.
