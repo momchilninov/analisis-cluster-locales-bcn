@@ -58,16 +58,19 @@ El **propósito** de este proyecto es aplicar el algoritmo de K-means clustering
 
 En este proyecto, se aplicaron varias técnicas de preprocesamiento de datos antes de aplicar el algoritmo de K-means clustering. A continuación se describen los pasos específicos que se siguieron:
 
-One-hot Encoding:
+One-hot Encoding
+
 Se utilizó la técnica de One-hot encoding para manejar variables categóricas en el conjunto de datos de locales. Esto implicó convertir cada variable categórica en una representación numérica binaria, lo que nos permitió utilizarla en el algoritmo de clustering.
 
-Standard Scalar:
+Standard Scalar
+
 Antes de aplicar el algoritmo de K-means clustering, se estandarizaron las características numéricas utilizando StandardScaler de scikit-learn. Esto aseguró que todas las características tuvieran una media de 0 y una desviación estándar de 1, lo que ayudó a mejorar la convergencia del algoritmo.
 
-K-means Clustering:
+K-means Clustering
+
 Se aplicó el algoritmo de K-means clustering para segmentar a los locales de grupos homogéneos. Se utilizó la implementación de K-means de scikit-learn, especificando el número de clusters deseado.
 
-Elbow Method:
+Elbow Method
 Se utilizó el método del codo (Elbow Method) para determinar el número óptimo de clusters para el conjunto de datos. Se iteró sobre un rango de posibles valores de clusters y se calculó la suma de los errores cuadráticos (SSE) para cada valor. Se seleccionó el punto en el que la curva de SSE tuvo un cambio significativo, lo que indicó el número óptimo de clusters (5).
 
 
