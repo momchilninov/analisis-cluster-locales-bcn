@@ -3,7 +3,7 @@
 El dataset incluye información del censo de locales en planta baja de la ciudad de Barcelona destinados a actividad económica y que se encuentran en activo o
 pendientes de actividad. 
 
-El propósito de este proyecto es aplicar el algoritmo de K-means clustering para segmentar los locales. 
+El **propósito** de este proyecto es aplicar el algoritmo de K-means clustering para segmentar los locales. 
 
 *Codi_Principal_Activitat*, identificador global único.
 
